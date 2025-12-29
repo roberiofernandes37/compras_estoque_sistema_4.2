@@ -1,0 +1,55 @@
+abc:
+  A: 80.0
+  B: 15.0
+  C: 5.0
+compras:
+  meses_cobertura: 3.0
+estoque:
+  fator_z:
+    X: 1.65
+    Y: 1.28
+    Z: 0.84
+giro:
+  limite_meses_cobertura: 6
+  minimo_venda_dia: 0.05
+historico:
+  meses_analise: 36
+  meses_tendencia: 6
+lead_time:
+  desvio_padrao: 2.0
+  padrao_dias: 17
+lote:
+  limite_virada: 0.5
+  minima_absoluta: 1
+outlier:
+  fator_multiplicador: 2.0
+produto:
+  dias_lancamento: 180
+  dias_sem_entrada_obsoleto: 365
+  dias_sem_venda_obsoleto: 180
+risco:
+  clientes_dependencia_alerta_A: 5
+  clientes_dependencia_alerta_B: 2
+  clientes_dependencia_total_A: 2
+  limite_excesso: 6
+  valor_alto_item_C: 1000.0
+ruptura:
+  boost_demanda_curva_AB: 1.2
+sazonalidade:
+  ativada: true
+  fator_maximo: 2.5
+  fator_minimo: 0.5
+tolerancia_abc:
+  A: 0.3
+  B: 0.2
+  C: 0.1
+xyz:
+  X:
+    threshold: 0.5
+    z_score: 1.65
+  Y:
+    threshold: 1.0
+    z_score: 1.28
+  Z:
+    threshold: 999.0
+    z_score: 0.84
